@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="circle"></div>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo" class="src">
+        </div>
+        <div class="navbar">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">What's up</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="info">
+            <h1>It's not just Coffee</h1>
+            <h1>It's <span class="Green">Starbucks</span></h1>
+            <p>Whether you’re ordering a refresher, a pink drink with vanilla sweet cream cold foam on top, or an iced coffee with oat milk, Starbucks gives you all the heart eyes. 
+            </p>
+            <a href="#" class="">Learn more</a>
+        </div>
+        <div class="right">
+            <div class="img-box">
+            <img src="assets/img1.png" alt="StarbucksCofee" class="fg-img">
+            </div>
+            <div class="socialconnect">
+                <a href="#"><img src="assets/facebook.png"  alt="facebook" class = "facebook"></a>
+                <a href="#"><img src="assets/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="assets/twitter.png"   alt="twitter"></a>
+            </div>
+        </div>
+    </div>
+    <div class="otherRange">
+        <a href="#"><img src="assets/thumb1.png" alt="coffee" onclick="imgSlider('assets/img1.png');colorChanger('#017143')" id = "bottom"></a>
+        <a href="#"><img src="assets/thumb2.png" alt="coffee" onclick="imgSlider('assets/img2.png');colorChanger('#eb7495')"></a>
+        <a href="#"><img src="assets/thumb3.png" alt="coffee" onclick="imgSlider('assets/img3.png');colorChanger('#d752b1')"></a>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
