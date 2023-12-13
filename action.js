@@ -1,13 +1,12 @@
 function imgSlider(picture){
     document.querySelector('.fg-img').src = picture;
 }
-
-
+// background clip color changer
 function colorChanger(value){
     const col = document.querySelector('.circle');
     col.style.background = value;
 }
-
+// dropdown menu for small devices
 const hamburger = document.querySelector(".hamburger");
 const navmenu = document.querySelector(".navbar");
 

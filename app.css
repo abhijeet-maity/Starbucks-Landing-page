@@ -206,7 +206,7 @@ header .navbar a{
         width: 50%;
     }
 }
-    
+/*------------- Media query for small devices and dropdown navbar -------------------*/
 @media(max-width:768px){
     .hamburger{
         display: block;
